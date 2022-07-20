@@ -13,15 +13,112 @@ html{
     background-color: #fafafa;
     font-size: 62.5%;
     scroll-behavior: smooth;
-    /* font-family: 'Italianno', cursive; */
     font-family: 'Roboto', sans-serif;
 }
 
 body{
     background-color: #fff;
-    width: 120rem;
+    width: 125rem;
     max-width: 100%;
     margin: auto;
-    box-shadow: 0.1rem 0.1rem 0.1rem #c4c4c4, -0.1rem 0rem 0.1rem #c4c4c4;
+    box-shadow: 0.1rem 0.0rem 0.1rem #c4c4c4, 0.1rem 0rem 0.1rem #c4c4c4;
 }
 /* reset and common code Ends */
+
+
+/* Header design Starts Here */
+
+    header{
+        background-color: black;
+        color: white;
+        border-radius: 1rem;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding-left: 7rem;
+        padding-right: 7rem;
+    }
+
+    .header-title{
+        font-size: 5rem;
+    }
+    .header-description{
+        font-size: 1.8rem;
+        padding-bottom: 1.5rem;
+    }
+    .btn-nd-animation{
+        display: flex;
+        align-items: center;
+        
+    }
+    .btn{
+        background-color: rgb(189, 6, 6);
+        border: none;
+        border-radius: 0.6rem;
+        cursor: pointer;
+        font-size: 1.6rem;
+        padding: 1rem 1rem;
+        letter-spacing:0.1rem ;
+        margin-bottom: ;
+    }
+    .btn> a ,i{
+        color: white;
+    }
+    .animation-light{
+        width: 15px;
+        height: 15px;
+        background-color: red;
+        border-radius: 50%;
+        margin-left: 0.5rem;
+        animation: light 1s ease-in-out infinite;
+        animation-play-state: running;
+    }
+    
+    @keyframes light{
+        0%{
+            background-color: red;
+        }
+        50%{
+            background-color: black;
+        }
+        100%{
+            background-color: red;
+            
+        }
+    }
+
+
+
+
+/* Header design Ends Here */
+
+
+
+
+/* Responsive Area  Starts*/
+
+/* Small device Starts*/
+@media screen and (max-width:768px) {
+    header{
+        flex-direction: column-reverse;
+    }
+}
+
+
+/* Small device Ends */
+
+
+
+
+
+
+/* Medium Device Starts */
+@media screen and (max-width:992) {
+    
+}
+
+/* Medium Device Ends */
+
+
+
+/* Responsive Area Ends */
