@@ -215,7 +215,7 @@ footer h2{
 .goal{
     display: inline-block;
 }
-.Footer-menu a{
+.footer-menu a{
     text-decoration: none;
     color: rgb(184, 180, 180);
     padding: 20px;
@@ -352,7 +352,7 @@ Responsive Area  Starts
     }
 
     /* footer */
-    .Footer-menu{
+    .footer-menu{
         display: flex;
         flex-direction: column;
         align-items: center;
