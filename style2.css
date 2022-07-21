@@ -138,6 +138,7 @@ body{
         .card{
             box-shadow: 1px 1px 1px 1px gray;
             border-radius: 12px;
+            background-color: rgb(226, 221, 221);
         }
 
         .card-img{
